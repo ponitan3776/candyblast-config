@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "commands": [
+    { 
+      "cmd": "/givecoins", 
+      "desc": "コインを付与", 
+      "usage": "/givecoins <amount>", 
+      "example": "/givecoins 1000" 
+    },
+    { 
+      "cmd": "/setscore", 
+      "desc": "ベストスコアを設定", 
+      "usage": "/setscore <score>", 
+      "example": "/setscore 9999" 
+    },
+    { 
+      "cmd": "/reloadconfig", 
+      "desc": "設定ファイルを再読み込み", 
+      "usage": "/reloadconfig", 
+      "example": "/reloadconfig" 
+    },
+    { 
+      "cmd": "/safety", 
+      "desc": "強制セーフティモードのON/OFF", 
+      "usage": "/safety on|off", 
+      "example": "/safety on" 
+    },
+    { 
+      "cmd": "/block", 
+      "desc": "ブロックの出現ON/OFF", 
+      "usage": "/block <id> on|off", 
+      "example": "/block 3 off" 
+    },
+    { 
+      "cmd": "/listblocks", 
+      "desc": "全ブロックの一覧と状態を表示", 
+      "usage": "/listblocks", 
+      "example": "/listblocks" 
+    }
+  ]
+}
