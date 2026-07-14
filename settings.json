@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "gameSettings": {
     "coinMultiplier": {
       "soft": 0.5,
@@ -13,6 +13,10 @@
     "minSize": 5,
     "scorePerBlock": 1,
     "lineClearBaseScore": 10,
-    "comboBonusMultiplier": 5
+    "comboBonusMultiplier": 5,
+    "maxComboDisplay": 10,
+    "coinsPerScore": 50,
+    "questResetHour": 0,
+    "maxQuestsPerDay": 10
   }
 }
