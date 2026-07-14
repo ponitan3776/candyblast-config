@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "gameSettings": {
+    "coinMultiplier": {
+      "soft": 0.5,
+      "baked": 1.0,
+      "hard": 1.5,
+      "extreme": 3.0
+    },
+    "defaultMode": "baked",
+    "defaultSize": 8,
+    "maxSize": 18,
+    "minSize": 5,
+    "scorePerBlock": 1,
+    "lineClearBaseScore": 10,
+    "comboBonusMultiplier": 5
+  }
+}
